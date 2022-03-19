@@ -64,7 +64,7 @@ function ListProduct({ data }) {
                             <h6 className="font-weight-bold">รายละเอียด</h6>
                             <p>{modalData.des}</p>
                             <div className="row py-2">
-                                <NavLink to={`/edit/1`}>
+                                <NavLink to={`/edit/${modalData.id}`}>
                                     <Button
                                         className="w-100"
                                         color="light text-dark"
